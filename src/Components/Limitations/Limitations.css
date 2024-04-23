@@ -1,0 +1,79 @@
+.limitations{
+    padding: 0 100px;
+    height: 1300px;
+
+}
+
+.element__one{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.element__one .Gender{
+    width: 30%;
+}
+
+.element__limitations--text{
+    width: 40%;
+}
+
+.element__limitations--text h2{
+    font-size: 55px;
+    font-weight: 600;
+    padding:20px 0;
+}
+
+.element__limitations--text p{
+    font-size: 20px;
+}
+
+.card__title{
+    display: flex;
+    align-items: center;
+    padding: 0 0 25px 0;
+}
+
+.card__title img{
+    width: 50px;
+}
+
+.card__title h2{
+    padding: 0 20px;
+    font-size: 30px;
+}
+
+
+.card__limitations p{
+    padding-bottom: 20px;
+    color: #5E6E85;
+    font-size: 25px;
+}
+
+.card__limitations{
+    padding: 40px 45px;
+    width: 30%;
+    border-radius: 16px;
+    -webkit-box-shadow: 32px 41px 137px 0px rgba(143,174,207,0.31);
+    -moz-box-shadow: 32px 41px 137px 0px rgba(143,174,207,0.31);
+    box-shadow: 32px 41px 137px 0px rgba(143,174,207,0.31);
+}
+
+.element__two{
+    padding-top: 50px ;
+    display: flex;
+    justify-content: end;
+}
+
+.element__two .card__limitations{
+    margin: 0 20px;
+}
+
+.element__three{
+    padding-top: 50px ;
+    display: flex;
+}
+
+.element__three .card__limitations{
+    margin: 0 20px;
+}

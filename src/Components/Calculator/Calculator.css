@@ -35,6 +35,10 @@
     font-weight: 600;
 }
 
+.calculator__options span input{
+    width: 30px;
+}
+
 .values__system {
     position: relative;
     display: flex;
@@ -87,4 +91,20 @@ input[type=number] { -moz-appearance:textfield; }
     background: linear-gradient(90deg, rgb(56, 46, 255) 20%, rgb(88, 91, 220) 70%, rgb(170, 207, 255) 100%);
     color: white;
     height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    border-radius: 10px 80px 80px 10px;
+}
+
+.result__system h3{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.result__system p{
+    font-weight: 300;
+    font-size: 14px;
 }
