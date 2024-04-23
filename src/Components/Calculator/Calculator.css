@@ -1,10 +1,90 @@
 .calculator{
+    position: static;
+}
+
+.calculator__container{
     background: white;
-    position: fixed;
-    top: 15%;
+    position: absolute  ;
+    top: 20%;
     left: 55%;
     height: 420px;
     width: 550px;
     box-shadow: 20px 19px 15px -3px rgba(0,0,0,0.1);
     border-radius: 20px;
+}
+
+.calculator__contenido{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.calculator__contenido h2{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.calculator__options{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.calculator__options span{
+    flex-basis: 50%;
+    font-weight: 600;
+}
+
+.values__system {
+    position: relative;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.values__system span{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.values__system span label{
+    color: gray;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.values__system span input{
+    padding: 10px 15px;
+    border: 1px solid rgba(128, 128, 128, 0.345);
+    border-radius: 8px;
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    color: gray;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+.values__system span input::placeholder{
+    color:rgba(128, 128, 128, 0.521);
+}
+
+.values__system span p{
+    position: absolute;
+    top: 38px;
+    margin-left: 185px;
+    color: blue;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.result__system{
+    background: linear-gradient(90deg, rgb(56, 46, 255) 20%, rgb(88, 91, 220) 70%, rgb(170, 207, 255) 100%);
+    color: white;
+    height: 30%;
 }
