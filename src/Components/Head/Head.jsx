@@ -6,7 +6,7 @@ const Head = () => {
       <div className="head__contenido">
         <img src={icon} alt="" className="head__icon" />
         <div className="head__text">
-          <h1>Body Mass Index Calculator</h1>
+          <h1>Body Mass <br/> Index Calculator</h1>
           <p>
             Better understand your weight in relation to your height using our
             body mass index (BM) calculator. While BMI is not the sole

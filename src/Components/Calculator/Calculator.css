@@ -108,3 +108,108 @@ input[type=number] { -moz-appearance:textfield; }
     font-weight: 300;
     font-size: 14px;
 }
+
+
+/* Responsive */
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+    .calculator__container{
+        width: 500px;
+    }
+
+    .calculator__container{
+      
+        top: 20%;
+        left: 50%;
+        height: 420px;
+        width: 550px;
+      
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .calculator__container{
+        position: absolute  ;
+        top: calc(53% + 10%);
+        left: 6%;
+        width: calc(100% - 8%)
+    }
+
+    .values__system span p{
+        margin-left: 36%;
+
+    }
+    
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px){
+    .calculator__container{
+        position: absolute  ;
+        top:  calc(78% + 10%);
+        left: 4%;
+        width: calc(100% - 8%);
+        height: auto;
+    }
+
+    .values__system{
+        flex-direction: column;
+    }
+    
+    .values__system span{
+        margin-bottom: 20px;
+    }
+
+    .values__system span input {
+        width: 90%;
+    }
+
+    .values__system span p{
+        position: absolute;
+        top: auto;
+        margin-top: 40px;
+        margin-left: 86%;
+
+    }
+    .result__system{
+        padding: 30px ;
+        border-radius: 16px;
+        background: #345FF6;
+    }
+}
+
+
+@media only screen and (max-width: 499px){
+    .calculator__container{
+        position: absolute  ;
+        top: calc(48% + 10%);
+        left: 4%;
+        width: calc(100% - 8%);
+        height: auto;
+    }
+
+    .values__system{
+        flex-direction: column;
+    }
+    
+    .values__system span{
+        margin-bottom: 20px;
+    }
+
+    .values__system span input {
+        width: 90%;
+    }
+
+    .values__system span p{
+        position: absolute;
+        top: auto;
+        margin-top: 40px;
+        margin-left: 86%;
+
+    }
+    .result__system{
+        padding: 30px ;
+        border-radius: 16px;
+        background: #345FF6;
+    }
+}

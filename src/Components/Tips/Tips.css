@@ -28,3 +28,52 @@
  color: #5E6E85;
  font-size: 22px;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .tips__elements{
+        display: block;
+        padding: 20px 40px;
+        height: 450px;
+        background: rgb(255,255,255);
+        background: linear-gradient(130deg, rgba(255,255,255,1) 60%, rgba(214, 230, 254, 0.289) 100%);
+    }
+
+    .tip__element{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .tip__element img{
+        padding-top: 40px;
+        padding-right: 40px;
+    }
+
+    
+}
+
+@media only screen  and (max-width: 767px){
+    .tips__elements{
+        display: block;
+        padding: 40px 40px;
+        height: 900px;
+        background: rgb(255,255,255);
+        background: linear-gradient(130deg, rgba(255,255,255,1) 60%, rgba(214, 230, 254, 0.289) 100%);
+    }
+
+    .tip__element{
+        align-items: start;
+    }
+
+    .tip__element img{
+        padding-top: 40px;
+        padding-right: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 499px){
+    .tips__elements{
+        height: 1000px;
+    }
+}
